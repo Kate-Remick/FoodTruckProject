@@ -34,7 +34,7 @@ public class FoodTruckApp {
 		String[] prompts = {nameQ, foodQ, ratingQ};
 		String userInput = ""; 
 		
-		
+		kb.close();
 		for( int i = 0; i < 5; i++) {
 			System.out.println("Let's rate a truck! Type in 'quit' to stop rating.");
 			for( int q = 0; q < prompts.length; q ++) {

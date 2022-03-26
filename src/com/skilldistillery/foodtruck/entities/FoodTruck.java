@@ -67,7 +67,7 @@ public class FoodTruck {
 			if (fleet[i] == null) {
 				break;
 			}
-			System.out.println(fleet[i].getId() +  ") " + fleet[i].getName() + " is selling " + fleet[i].getFood() + " and is rated: " + fleet[i].getRating()+ ".");
+			System.out.println("ID # "+ fleet[i].getId() +  ") " + fleet[i].getName() + " is selling " + fleet[i].getFood() + " and is rated: " + fleet[i].getRating()+ ".");
 		}
 		
 	}
