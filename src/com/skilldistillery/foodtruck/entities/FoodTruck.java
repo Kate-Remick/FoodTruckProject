@@ -41,6 +41,9 @@ public class FoodTruck {
 	public double calculateAverage(FoodTruck [] fleet) {
 		double total = 0;
 		for(int i = 0; i < fleet.length; i++ ) {
+			if (fleet[i] == null) {
+				break;
+			}
 			total += fleet[i].rating;
 		}
 		double average = (Math.round(total/truckNum)*10.0)/10.0;
